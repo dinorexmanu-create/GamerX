@@ -1,26 +1,25 @@
-GAMERX 1.1 — SITO WEB CON GIOCHI HTML
+GAMERX 1.3 — TRE GIOCHI
 
-GIOCHI INCLUSI
-- Mario Adventure 2.1 — games/mario-adventure/index.html
-- Nation Builder 2.1 — games/nation-builder/index.html
-Neon Dodge e tutti i suoi file sono stati rimossi.
+Contenuti:
+- Mario Adventure 2.1
+- Nation Builder 2.1
+- Marion Troller 2.3
 
-PROVA IN LOCALE
-Apri index.html in Google Chrome, scegli un gioco e premi Gioca.
-Se un gioco ha problemi nel riquadro, clicca «Apri gioco in una scheda».
+ISTRUZIONI GITHUB PAGES
+Il file index.html deve comparire nella PRIMA PAGINA del repository GamerX, allo stesso livello delle cartelle assets e games. NON caricare lo ZIP direttamente e NON inserire tutti i file sotto una cartella GamerX_1.3 o GamerX_Hosting.
 
-PUBBLICAZIONE GRATUITA
-GitHub Pages: crea un repository pubblico, carica TUTTI i file e cartelle contenuti nella cartella GamerX (index.html deve stare nella radice del repository), poi vai in Settings > Pages > Deploy from a branch > main > /(root). Il sito sara pubblicato all'indirizzo https://TUO-UTENTE.github.io/NOME-REPOSITORY/.
-È possibile collegare un dominio acquistato, solo se ne possiedi il controllo DNS.
-Google Sites e gratuito, ma per pubblicare file HTML di giochi completi e preferibile GitHub Pages o altra piattaforma di hosting statico.
+1. Estrai lo ZIP sul computer.
+2. Apri la cartella GamerX_1.3.
+3. Nel repository GitHub clicca Add file > Upload files (dalla pagina principale del repository).
+4. Trascina il contenuto della cartella GamerX_1.3 nell'area di caricamento. Mantieni la struttura delle cartelle. Conferma con Commit changes.
+5. Verifica che index.html sia visibile nella radice e che games/marion-troller/index.html esista.
+6. In Settings > Pages imposta Deploy from a branch, main, /(root).
+7. Apri https://dinorexmanu-create.github.io/GamerX/ dopo che la pubblicazione e' terminata.
 
-NUOVI GIOCHI
-1. Metti il nuovo gioco in games/nome-gioco/index.html.
-2. Aggiungi una voce in assets/js/catalog.js (id, title, category, description, url e cover).
-3. Inserisci la copertina in assets/img/.
-4. Ripubblica il sito aggiornato sul tuo hosting.
+Se hai gia' pubblicato la versione 1.2, puoi caricare SOLO:
+- assets/js/catalog.js
+- assets/img/marion-troller.svg
+- games/marion-troller/index.html
+Ciascun file deve finire nel percorso corretto. Sostituisci catalog.js esistente.
 
-NOTE
-I due file HTML forniti sono stati copiati senza modifiche.
-Le funzioni multiplayer possono richiedere connessione Internet e servizi esterni.
-Le partite salvate nel browser possono dipendere dall'indirizzo del sito: cambiando dominio o indirizzo, i salvataggi locali non si trasferiscono automaticamente.
+Nota: Marion Troller carica la libreria multiplayer MQTT da un CDN esterno, quindi le sue funzionalita' multiplayer richiedono accesso alla rete.

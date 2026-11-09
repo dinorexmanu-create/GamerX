@@ -20,4 +20,14 @@ window.GAMERX_GAMES = [
     badge: '2.1',
     featured: true
   }
+  ,{
+    id: 'marion-troller',
+    title: 'Marion Troller',
+    category: 'Platform',
+    description: 'Un platform pieno di trappole, livelli troll, monete, skin, boss e multiplayer. Versione 2.3.',
+    cover: 'assets/img/marion-troller.svg',
+    url: 'games/marion-troller/index.html',
+    badge: '2.3',
+    featured: true
+  }
 ];
