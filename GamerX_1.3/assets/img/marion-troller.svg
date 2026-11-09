@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200">
+<defs><linearGradient id="sky" x2=".8" y2="1"><stop stop-color="#5c35d8"/><stop offset="1" stop-color="#180c35"/></linearGradient><radialGradient id="glow"><stop stop-color="#f251e5" stop-opacity=".5"/><stop offset="1" stop-color="#f251e5" stop-opacity="0"/></radialGradient></defs>
+<rect width="900" height="1200" fill="url(#sky)"/><circle cx="500" cy="490" r="400" fill="url(#glow)"/>
+<g opacity=".5" fill="#ffffff"><path d="M88 130h14v14H88zM745 180h12v12h-12zM182 440h10v10h-10zM666 320h16v16h-16zM812 580h9v9h-9z"/></g>
+<g fill="#482489" stroke="#a76cff" stroke-width="12"><rect x="45" y="832" width="810" height="150" rx="12"/><rect x="130" y="685" width="245" height="64" rx="8"/><rect x="535" y="623" width="235" height="64" rx="8"/></g>
+<g fill="#f6a43b"><path d="M630 802l37 -76 37 76zM706 802l37 -76 37 76zM782 802l37 -76 37 76z"/></g>
+<g transform="translate(365 435) scale(1.45)"><rect x="-62" y="70" width="125" height="112" rx="8" fill="#234ee8" stroke="#0c1d69" stroke-width="9"/><rect x="-50" y="-13" width="100" height="95" rx="32" fill="#ffd09d" stroke="#663c28" stroke-width="10"/><path d="M-75 5V-35Q0 -90 75 -35V5Z" fill="#ff5757" stroke="#8d192a" stroke-width="9"/><rect x="-23" y="10" width="22" height="33" rx="6" fill="#fff"/><rect x="14" y="10" width="22" height="33" rx="6" fill="#fff"/><rect x="-15" y="20" width="10" height="14" fill="#171029"/><rect x="23" y="20" width="10" height="14" fill="#171029"/><rect x="-46" y="56" width="92" height="16" rx="7" fill="#633220"/><rect x="-50" y="172" width="52" height="35" rx="6" fill="#622a31"/><rect x="12" y="172" width="52" height="35" rx="6" fill="#622a31"/></g>
+<text x="450" y="175" font-family="Arial Black,Arial,sans-serif" font-size="90" font-weight="900" fill="#fff" text-anchor="middle">MARION</text>
+<text x="450" y="270" font-family="Arial Black,Arial,sans-serif" font-size="90" font-weight="900" fill="#ffd555" text-anchor="middle">TROLLER</text>
+<rect x="265" y="1010" width="370" height="69" rx="34" fill="#2d124e" stroke="#e57cff" stroke-width="4"/>
+<text x="450" y="1058" font-family="Arial,sans-serif" font-size="38" font-weight="800" text-anchor="middle" fill="#fff">VERSIONE 2.3</text>
+</svg>
