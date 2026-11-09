@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090818">
+  <meta name="description" content="GamerX: scopri e gioca ai videogiochi direttamente dal tuo browser.">
+  <title>GamerX — Il tuo universo gaming</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/catalog.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="GamerX home"><span class="brand-mark">✕</span><span>GAMER<span class="brand-x">X</span></span></a>
+      <nav class="main-nav" aria-label="Navigazione"><a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#games">Giochi</a><a class="nav-link" href="#about">Info</a></nav>
+      <a class="header-cta" href="#games"><span class="cta-dot"></span> Esplora giochi <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> IL TUO PORTALE DI VIDEOGIOCHI</div>
+      <h1>IL GIOCO<br>INIZIA <span>QUI.</span></h1>
+      <p>Benvenuto su GamerX. Un universo di avventure, sfide e divertimento. Scegli il tuo gioco e inizia subito, direttamente dal browser.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#games">🎮&nbsp; Gioca ora <span>→</span></a><a class="btn btn-outline" href="#about">Scopri GamerX</a></div>
+      <div class="hero-stats"><div><strong id="gameCount">0</strong><small>GIOCHI DISPONIBILI</small></div><div class="stat-divider"></div><div><strong>100%</strong><small>GIOCHI NEL BROWSER</small></div><div class="stat-divider"></div><div><strong>∞</strong><small>DIVERTIMENTO</small></div></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="art-halo"></div><div class="art-grid"></div><div class="art-ring art-ring-1"></div><div class="art-ring art-ring-2"></div><div class="art-controller"><svg viewBox="0 0 440 285" fill="none" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="70" y1="30" x2="360" y2="260"><stop stop-color="#57458D"/><stop offset=".55" stop-color="#251744"/><stop offset="1" stop-color="#0B0B24"/></linearGradient><linearGradient id="stroke" x1="50" x2="390" y1="0" y2="300"><stop stop-color="#D976FF"/><stop offset="1" stop-color="#6C4DFF"/></linearGradient></defs><path d="M99 65C139 45 302 45 341 65C380 85 401 142 410 203C414 236 393 254 365 248L297 216H143L75 248C47 254 26 236 30 203C39 142 60 85 99 65Z" fill="url(#g)" stroke="url(#stroke)" stroke-width="5"/><path d="M145 105H105V82H85V105H45V127H85V152H105V127H145V105Z" fill="#C5A9FF" opacity=".88" transform="translate(22 18) scale(.77)"/><circle cx="323" cy="113" r="16" fill="#9B52F7"/><circle cx="358" cy="146" r="16" fill="#3CDAE8"/><circle cx="289" cy="146" r="16" fill="#F65AC3"/><circle cx="323" cy="180" r="16" fill="#8E7DFF"/><rect x="178" y="88" width="84" height="29" rx="12" fill="#120D25" stroke="#7159B1"/><circle cx="188" cy="177" r="23" fill="#100B25" stroke="#8165BC" stroke-width="3"/><circle cx="253" cy="177" r="23" fill="#100B25" stroke="#8165BC" stroke-width="3"/><path d="M151 208L107 228M289 208L332 228" stroke="#66519C" stroke-width="4" stroke-linecap="round"/></svg></div><div class="art-label art-label-top">LEVEL UP <span>↗</span></div><div class="art-label art-label-bottom">PLAY. EXPLORE. REPEAT.</div><div class="art-spark spark-one">✦</div><div class="art-spark spark-two">✧</div></div>
+    </section>
+    <section class="library-section" id="games"><div class="container"><div class="section-heading"><div><div class="section-kicker">/ LA TUA LIBRERIA</div><h2>ESPLORA I <span>GIOCHI</span></h2><p>Trova la tua prossima avventura.</p></div><div class="library-count"><span id="filteredCount">0</span> giochi</div></div>
+      <div class="library-tools"><div class="search-wrap"><span class="search-symbol" aria-hidden="true">⌕</span><input id="searchGames" type="search" placeholder="Cerca un gioco..." aria-label="Cerca un gioco" autocomplete="off"></div><div id="categoryFilters" class="filter-wrap" role="group" aria-label="Filtra per categoria"></div></div>
+      <div class="game-grid" id="gameGrid" aria-live="polite"></div><div class="empty-state" id="emptyState" hidden><div>🎮</div><h3>Nessun gioco trovato</h3><p>Prova con un'altra ricerca o categoria.</p><button class="btn btn-outline" id="resetFilters" type="button">Mostra tutti</button></div>
+    </div></section>
+    <section id="about" class="about-section container"><div class="about-panel"><div><div class="section-kicker">/ GAMERX UNIVERSE</div><h2>UN SOLO POSTO.<br><span>INFINITE AVVENTURE.</span></h2><p>GamerX raccoglie giochi HTML giocabili su PC, tablet e smartphone, se il singolo gioco supporta il dispositivo. Nessuna installazione necessaria.</p></div><div class="about-symbol" aria-hidden="true">GX<span>.</span></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">✕</span><span>GAMER<span class="brand-x">X</span></span></a><span>© <span id="currentYear">2026</span> GamerX · Built for players.</span><a href="#home">Torna su ↑</a></div></footer>
+</body>
+</html>
