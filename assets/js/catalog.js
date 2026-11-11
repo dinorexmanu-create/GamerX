@@ -14,10 +14,10 @@ window.GAMERX_GAMES = [
     id: 'nation-builder',
     title: 'Nation Builder',
     category: 'Strategia',
-    description: 'Costruisci una nazione, espandi i tuoi territori e gestisci economia, diplomazia e guerre. Versione 2.1.',
+    description: 'Costruisci una nazione, espandi i tuoi territori e gestisci economia, diplomazia e guerre, potenze mondiali ed eventi globali. Versione 2.2.',
     cover: 'assets/img/nation-builder.svg',
     url: 'games/nation-builder/index.html',
-    badge: '2.1',
+    badge: '2.2',
     featured: true
   }
   ,{
